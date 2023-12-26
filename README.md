@@ -40,8 +40,10 @@ $ npx storybook@latest init
 ```js
 $ npm run dev /* 서버 */
 $ npm run storybook /* 스토리북 */
-$ npm run deploy /* 배포 */
+$ npm run deploy /* 배포 (호스팅) */
+$ npm run chromatic /* 배포 (스토리북) */
 ```
 
 ### 경로
 호스팅(https://rightbrainlib.github.io/template/)
+스토리북(https://658a6bfc7dd28e3bfc8cf29a-qzylbivmyh.chromatic.com/?path=/docs/configure-your-project--docs)

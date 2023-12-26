@@ -12,7 +12,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "chromatic": "npx chromatic --project-token=chpt_e59460984d8aaee"
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
@@ -33,6 +34,7 @@
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
+    "chromatic": "^10.2.0",
     "eslint": "^8.55.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
@@ -40,5 +42,7 @@
     "storybook": "^7.6.6",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "template@0.0.0"
 }
