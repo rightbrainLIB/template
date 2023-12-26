@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+      action test
       <Test />
       <div>
         <a href="https://vitejs.dev" target="_blank">
