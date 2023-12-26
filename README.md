@@ -44,4 +44,4 @@ $ npm run deploy /* 배포 */
 ```
 
 ### 경로
-호스팅 (https://rightbrainlib.github.io/template/)
+[호스팅](https://rightbrainlib.github.io/template/){:target="_blank"}
