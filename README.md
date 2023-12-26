@@ -42,3 +42,6 @@ $ npm run dev /* 서버 */
 $ npm run storybook /* 스토리북 */
 $ npm run deploy /* 배포 */
 ```
+
+### 경로
+호스팅 (https://rightbrainlib.github.io/template/)
