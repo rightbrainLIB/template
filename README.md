@@ -28,3 +28,16 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+### 설치
+```js
+$ npm vite create // react typescript swc, 경로 ./
+$ npm i
+$ npx storybook@latest init
+```
+
+### 실행
+```js
+$ npm run dev
+$ npm run storybook
+```
