@@ -38,6 +38,7 @@ $ npx storybook@latest init
 
 ### 실행
 ```js
-$ npm run dev
-$ npm run storybook
+$ npm run dev /* 서버 */
+$ npm run storybook /* 스토리북 */
+$ npm run deploy /* 배포 */
 ```
