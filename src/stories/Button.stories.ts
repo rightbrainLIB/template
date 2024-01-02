@@ -56,3 +56,11 @@ export const SmallTest: Story = {
     primary: true,
   },
 };
+
+export const SmallTest2: Story = {
+  args: {
+    size: 'small',
+    label: 'ButtonTest2',
+    primary: true,
+  },
+};
