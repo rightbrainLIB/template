@@ -1,0 +1,45 @@
+{
+	"Print to block comment": {
+		"prefix": "cmt-block",
+		"body": [
+			"{/* S: $1 */}",
+			"$2",
+			"{/* E: $1 */}",
+		],
+		"description": "comments for template block"
+	},
+	"Print to explain comment": {
+		"prefix": "cmt-explain",
+		"body": [
+			"{/* $1 */}",
+			"$2",
+			"{/* // $1 */}",
+		],
+		"description": "comments for template block"
+	},
+	"Print to modal comment": {
+		"prefix": "cmt-modal",
+		"body": [
+			"{/* S: $1-modal */}",
+			"$2",
+			"{/* E: $1-modal */}",
+		],
+		"description": "comments for modal area"
+	},
+	"Print to function comment": {
+		"prefix": "cmt-function",
+		"body": [
+			"/**",
+			" * [$1",
+			" * 기능: $2",
+			" * @parameter: $3",
+			" * @return: $4",
+			" */",
+			"const $1 = () => {",
+			"  $5",
+			"};",
+			"/* $1] */",
+		],
+		"description": "comment for javascript function"
+	},
+}

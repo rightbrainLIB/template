@@ -1,0 +1,20 @@
+{
+	"Print to block comment": {
+		"prefix": "cmt-block",
+		"body": [
+			"/* S: $1 */",
+			"$2",
+			"/* E: $1 */",
+		],
+		"description": "comment for css block"
+	},
+	"Print to explain comment": {
+		"prefix": "cmt-explain",
+		"body": [
+			"/* [C: $1 */",
+			"$2",
+			"/* C]: $1 */",
+		],
+		"description": "comment for css explain"
+	}
+}

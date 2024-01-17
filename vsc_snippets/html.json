@@ -1,0 +1,28 @@
+{
+	"Print to block comment": {
+		"prefix": "cmt-block",
+		"body": [
+			"<!-- S: $1 -->",
+			"$2",
+			"<!-- E: $1 -->",
+		],
+		"description": "comment for html block"
+	},
+	"Print to explain comment": {
+		"prefix": "cmt-exp",
+		"body": [
+			"<!-- [$1] -->",
+			"$2",
+		],
+		"description": "comment for html explain"
+	},
+	"Print to modal comment": {
+		"prefix": "cmt-modal",
+		"body": [
+			"<!-- S: $1-modal -->",
+			"$2",
+			"<!-- E: $1-modal -->",
+		],
+		"description": "comment for modal area"
+	},
+}

@@ -1,0 +1,73 @@
+{
+	"Print to block comment": {
+		"prefix": "cmt-block",
+		"body": [
+			"/* S: $1 */",
+			"$2",
+			"/* E: $1 */",
+		],
+		"description": "comment for css block"
+	},
+	"Print to explain comment": {
+		"prefix": "cmt-explain",
+		"body": [
+			"/* [C: $1 */",
+			"$2",
+			"/* C]: $1 */",
+		],
+		"description": "comment for css explain"
+	},
+	"Print to variable comment": {
+		"prefix": "cmt-variable",
+		"body": [
+			"/* <VAR: $1 */",
+			"$2",
+			"/* VAR>: $1 */",
+		],
+		"description": "Writing a comment in the variable declaration area"
+	},
+	"Print to mixin comment": {
+		"prefix": "cmt-mixin",
+		"body": [
+			"/* <MIX: $1 */",
+			"@mixin $2() {",
+			"$3",
+			"}",
+			"/* MIX>: $1 */",
+		],
+		"description": "Writing a comment in the mixin declaration area"
+	},
+	"Print to extend comment": {
+		"prefix": "cmt-extend",
+		"body": [
+			"/* <EXT: $1 */",
+			"%$2 {",
+			"$3",
+			"}",
+			"/* EXT>: $1 */",
+		],
+		"description": "Writing a comment in the extend declaration area"
+	},
+	"Print to keyframes comment": {
+		"prefix": "cmt-keyframes",
+		"body": [
+			"/* <kf: $1 */",
+			"@keyframes $2 {",
+			"  $3",
+			"}",
+			"/* kf>: $1 */",
+		],
+		"description": "Writing a comment in the keyframes declaration area"
+	},
+	"Print to media-query comment": {
+		"prefix": "cmt-media",
+		"body": [
+			"/* <media: $1 */",
+			"@media $2 ($3) {",
+			"  $4",
+			"}",
+			"/* media>: $1 */",
+		],
+		"description": "Writing a comment in the media-query declaration area"
+	},
+}

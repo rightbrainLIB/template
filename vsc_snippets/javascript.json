@@ -1,0 +1,27 @@
+{
+	"Print to function comment": {
+		"prefix": "cmt-function",
+		"body": [
+			"/**",
+			" * [$1",
+			" * 기능: $2",
+			" * @parameter: $3",
+			" * @return: $4",
+			" */",
+			"const $1 = () => {",
+			"  $5",
+			"};",
+			"/* $1] */",
+		],
+		"description": "comment for javascript function"
+	},
+	"Print to explain comment": {
+		"prefix": "cmt-explain",
+		"body": [
+			"/* $1 */",
+			"$2",
+			"/* // $1 */",
+		],
+		"description": "comment for javascript explain"
+	}
+}
