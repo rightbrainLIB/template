@@ -1,10 +1,10 @@
-block comment
+block comment  
 코드 작성시 wrapper 와 같이 감싸는 부분의 블럭을 쉽게 구분하기 위해 사용
 
-explain comment
+explain comment  
 코드 작성시 해당 부분의 용도나, parameter, return값 등 디버깅에 참고할 만한 내용들
 
-기타 comment
+기타 comment  
 반복 사용되는 내용을 룰로 정함
 
 룰로 정하지 않은 내용은 자유롭게 활용
@@ -79,7 +79,7 @@ prefix: cmt-keyframes
 
 ## JS, react 주석
 #### block 주석
-*cmt-block*
+*cmt-block* 
 ```
 {/* S: card-box */}
 // ... 생략
@@ -87,7 +87,7 @@ prefix: cmt-keyframes
 ```
 
 #### 설명 주석
-*prefix: cmt-explain*
+*prefix: cmt-explain*  
 ```
 {/* 설명글 */}
 // ... 생략
