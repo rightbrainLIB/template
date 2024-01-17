@@ -9,6 +9,9 @@ explain comment
 
 룰로 정하지 않은 내용은 자유롭게 활용
 
+## vsc_snippets json 파일 설치 경로
+`C:\Users\RB-N-168\AppData\Roaming\Code\User\snippets`
+
 ## CSS, SCSS 주석
 #### block 주석
 *prefix: cmt-block*
